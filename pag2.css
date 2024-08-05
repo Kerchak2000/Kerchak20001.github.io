@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #f9f900 ;
+}
+.margen_principal{
+	border: solid 3px #00db00;
+}
+.encabezado{
+	position: sticky;
+	left: 1px;
+	top: 1px;
+	font-size: 30px;
+	height:100px ;
+}
+.link{
+	font-size: 15px;
+}
+.foto_logo_izquierda{
+	float: left;
+	height: 100px;
+	width: 100px;
+	border-radius: .5rem;
+}
+.derecha{
+	float: right;
+}
+.menu{
+	display: inline-block;
+	background-color: #0072e3;
+	height: 100px;
+	width: 1265px;
+	margin: 0;
+}
+.pie_de_pagina{
+	display: inline-block;
+	background-color: #0072e3;
+	height: 100px;
+	width: 1265px;
+}
+.texto{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #f9f900;
+}
+a:visited{
+	color: #ffff99;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: red;
+}
+footer section{
+	float: right;
+	margin: 30px;
+}
+footer p{
+	float: left;
+	margin: 30px;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 17px;
+}
+th, td{
+	border: solid 2px #f9f900;
+	padding: 5px;
+}
+th{
+	background-color: #ccffff;
+	color: #6666ff;
+}
+tr:hover{
+	background-color: #aaa;
+	cursor: pointer;
+}
+ul{
+	list-style-type: none;
+}
+
+.parrafo{
+	text-align: justify;
+	font-size: 17px;
+}
+caption{
+	font-size: 25px;
+}
+b{
+	font-size: 25px;
+	text-align: center;
+}
+.slider-wrapper{
+	position: relative;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.slider{
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: hidden;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 .25rem .5rem #21212126;
+	border-radius: .5rem;
+}
+.slider img{
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+.slider-nav{
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+.slider-nav a{
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: .75;
+	transition: opacity ease 250ms;
+}
+.slider-nav a:hover{
+	opacity: 100%;
+}
+footer a{
+	transition: color 0.3s ease;
+}

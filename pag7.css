@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #f9f900 ;
+}
+.margen_principal{
+	border: solid 3px #00db00;
+}
+.encabezado{
+	position: sticky;
+	left: 1px;
+	top: 1px;
+	font-size: 30px;
+	height:100px ;
+}
+.link{
+	font-size: 15px;
+}
+.foto_logo_izquierda{
+	float: left;
+	height: 100px;
+	width: 100px;
+	border-radius: .5rem;
+}
+.derecha{
+	float: right;
+}
+.menu{
+	display: inline-block;
+	background-color: #0072e3;
+	height: 100px;
+	width: 1250px;
+	margin: 0;
+}
+.pie_de_pagina{
+	display: inline-block;
+	background-color: #0072e3;
+	height: 100px;
+	width: 1250px;
+}
+.texto{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #f9f900;
+}
+a:visited{
+	color: #ffff99;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: red;
+}
+footer a{
+	transition: color 0.3s ease;
+}
+footer section{
+	float: right;
+	margin: 30px;
+}
+footer p{
+	float: left;
+	margin: 30px;
+}
+h2{
+	font-size: 35px;
+}
+b{
+	font-size: 30px;
+}
+.texto{
+	float: left;
+}
+.form-register{
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+.form-register h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.controls{
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-size: 18px;
+	color: white;
+}
+.form-register p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+.form-register .botons{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}

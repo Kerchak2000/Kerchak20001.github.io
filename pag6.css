@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #f9f900 ;
+}
+.margen_principal{
+	border: solid 3px #00db00;
+}
+.encabezado{
+	position: sticky;
+	left: 1px;
+	top: 1px;
+	font-size: 30px;
+	height:100px ;
+}
+.link{
+	font-size: 15px;
+}
+.foto_logo_izquierda{
+	float: left;
+	height: 100px;
+	width: 100px;
+	border-radius: .5rem;
+}
+.derecha{
+	float: right;
+}
+.menu{
+	display: inline-block;
+	background-color: #0072e3;
+	height: 100px;
+	width: 1250px;
+	margin: 0;
+}
+.pie_de_pagina{
+	display: inline-block;
+	background-color: #0072e3;
+	height: 100px;
+	width: 1250px;
+}
+.texto{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #f9f900;
+}
+a:visited{
+	color: #ffff99;
+}
+a:hover{
+	color: black;
+}
+a:active{
+	color: red;
+}
+footer a{
+	transition: color 0.3s ease;
+}
+footer section{
+	float: right;
+	margin: 30px;
+}
+footer p{
+	float: left;
+	margin: 30px;
+}
+.inicio_de_sesion{
+	position: relative;
+	top: 50%;
+	transform: translate(-50%,-50);
+	width: 400px;
+	background-color: white;
+	border-radius: 10px;
+}
+.inicio_de_sesion h2{
+	text-align: center;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid silver;
+}
+.inicio_de_sesion form{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+form .nombre_de_usuario{
+	position: relative;
+	border-bottom: 2px solid #adadad;
+	margin: 30px 0;
+}
+.nombre_de_usuario input{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline: none;
+}
+.nombre_de_usuario label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #adadad;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+	transition: .5s;
+}
+.nombre_de_usuario span::before{
+	content: ´´;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background: #6c3483;
+	transition: .5s;
+}
+.nombre_de_usuario input:focus ~ label,
+.nombre_de_usuario input:focus ~ label{
+	top: -5px;
+	color: #6c3483;
+}
+.nombre_de_usuario input:focus ~ span::before,
+.nombre_de_usuario input:focus ~ span::before{
+	width: 100%;
+}
+input[type="submit"]{
+	width: 100%;
+	height: 50px;
+	border: 1px solid;
+	background: #6c3483;
+	border-radius: 25px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+input[type="submit"]:hover{
+	border-color: purple;
+	transition: .5s;
+}
